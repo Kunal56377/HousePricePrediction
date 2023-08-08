@@ -1,3 +1,12 @@
-ElasticNet:
-  alpha: 0.2
-  l1_ratio: 0.2
+COLUMNS:
+  ID: int64 
+  TransactionDate: float64
+  HouseAge: float64
+  DistanceToStation: float64
+  NumberOfPubs: float64
+  PostCode: float64
+  HousePrice : object
+
+TARGET_COLUMN:
+  HousePrice : object
+
