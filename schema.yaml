@@ -8,5 +8,5 @@ COLUMNS:
   HousePrice : object
 
 TARGET_COLUMN:
-  HousePrice : object
+  name: HousePrice
 
